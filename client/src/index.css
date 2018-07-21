@@ -1,0 +1,88 @@
+.wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container{
+min-width: 285px;
+max-width: 800px;
+padding: 15px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+background: aliceblue;
+}
+
+form{
+display: flex;
+flex-direction: column;
+}
+
+form input{
+    margin-bottom: 1rem;
+    outline: none;
+    transition: .4s;
+}
+
+form input:first-of-type:hover, textarea:hover{
+    outline: 1px solid black;
+}
+
+form textarea{
+    padding: .3rem .3rem 3rem .3rem;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+
+form input:last-of-type{
+margin: 0;
+}
+form button{
+width: 6rem;
+cursor: pointer;
+align-self: flex-end;
+}
+
+
+p{
+    word-break: break-all;
+}
+
+.singleComment{
+    display: flex;
+}
+
+.singleComment .textContent{
+    margin-left: 1rem;
+}
+
+.time{
+    font-size: .88rem;
+    color: dimgrey;
+}
+
+.singleCommentButtons a{
+    margin-left: .3rem;
+    color: deepskyblue;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.singleComment{
+    margin-bottom: 1rem;
+}
+
+a:hover{
+    color: dodgerblue;
+}
+
+a:active, a:visit {
+    color: transparent;
+}
